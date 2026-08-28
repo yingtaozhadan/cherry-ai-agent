@@ -16,4 +16,9 @@ class ChatModelInvokeTest {
     void doChatWithOpenAi() {
         chatModelInvoke.doChatWithOpenAi();
     }
+
+    @Test
+    void doChatWithDeepSeek() {
+        chatModelInvoke.doChatWithDeepSeek();
+    }
 }
